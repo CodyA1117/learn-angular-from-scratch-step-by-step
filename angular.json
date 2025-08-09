@@ -32,7 +32,12 @@
               "src/styles.scss"
             ],
             "scripts": [],
-            "es5BrowserSupport": true
+            "es5BrowserSupport": true,
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "node_modules/bootstrap-sass/assets/stylesheets"
+              ]
+            }
           },
           "configurations": {
             "production": {
